@@ -1,0 +1,62 @@
+button:focus{
+    outline: none;
+}
+
+button{
+    border: none;
+    background-color: transparent
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.calci-container{
+    display: flex;
+    flex-direction: column;
+    background: #cbcccdd4;
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 0px 1px gray;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: #626264;
+    font-weight: bold;
+}
+
+
+table{
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+table tr td {
+    border-radius: 5px;
+    padding: 10px 12px;
+    background: repeating-linear-gradient(320deg, rgb(66, 66, 68), rgb(21, 21, 21) 200px); 
+}
+
+table #operator{
+    background: orange;
+}
+
+table tr td button{
+    color: white;
+    font-weight: bold;
+}
+
+table tr td p{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    cursor: pointer;
+} 
